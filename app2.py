@@ -47,7 +47,7 @@ def predictions(preds):
 #@st.cache
 def get_model():
 
-    model = tf.keras.models.load_model("model/model_mobnetv2")
+    model = tf.keras.models.load_model("model_mobnetv2")
     return model
 
 if __name__=='__main__':
