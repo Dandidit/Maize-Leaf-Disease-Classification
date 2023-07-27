@@ -1,5 +1,3 @@
-pip install tensorflow
-
 import pandas as pd
 import streamlit as st
 import tensorflow as tf
